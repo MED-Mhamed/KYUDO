@@ -1,0 +1,10 @@
+{
+  "name": "tracking_app",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

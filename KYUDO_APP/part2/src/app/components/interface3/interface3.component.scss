@@ -1,0 +1,26 @@
+.background-image {
+  background-image: url("../../../assets/img/int3.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.button-container {
+  position: absolute;
+  padding-inline: 50px;
+  bottom: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 0px;
+  border-radius: 30px;
+}
+.english-button {
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #1987d8;
+  color: #ffffff;
+}

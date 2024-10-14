@@ -1,0 +1,22 @@
+<div class="background-image">
+  <!-- Your content here -->
+  <div class="form-container">
+    <form [formGroup]="authForm" (ngSubmit)="submitForm()">
+      <div class="form-group mb-1 py-2">
+        <input type="tel" formControlName="phone" name="phone" class="form-control input-lg" placeholder="Phone"
+          style="border-radius: 30px;" required>
+      </div>
+      <div class="form-group mb-2 py-2">
+        <input type="password" formControlName="password" name="password" class="form-control  input-lg"
+          placeholder="Password" style="border-radius: 30px;" required>
+      </div>
+
+      <div class="button-container">
+        <button class="display-2 btn signin-button me-2" type="submit">Sign In</button>
+        <button class="display-2 btn signup-button" type="button" routerLink="/scan">Sign up</button>
+      </div>
+    </form>
+  </div>
+
+
+</div>
